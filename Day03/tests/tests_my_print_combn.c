@@ -1,0 +1,14 @@
+#include "../my_print_combn.h"
+#include "../lib/my_putchar.h"
+
+int main(void)
+{
+    my_print_combn(2);
+    my_putchar('\n');
+    my_putchar('\n');
+    my_print_combn(3);
+    my_putchar('\n');
+    my_putchar('\n');
+    my_print_combn(5);
+    return 0;
+}
