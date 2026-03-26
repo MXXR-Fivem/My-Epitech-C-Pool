@@ -1,3 +1,11 @@
+/*
+** EPITECH PROJECT, 2026
+** C Pool Day03
+** Author: Theo Busiris <theo.busiris@epitech.eu>
+** File description:
+** Print all combinations of n digits
+*/
+
 #include "lib/my_putchar.h"
 
 static void my_putnbr_fixed(int nb, int digits)
@@ -21,10 +29,10 @@ static int is_last(int n, int value)
 {
     unsigned int last;
     unsigned int digit;
-    
+
     last = 0;
     digit = 10 - n;
-    while(digit <= 9) {
+    while (digit <= 9) {
         last = last * 10 + digit;
         digit++;
     }
@@ -53,8 +61,8 @@ static void recursion(int n, int pos, int start, int value)
 int my_print_combn(int n)
 {
     if (n <= 0 || n >= 10) {
-        return 1;
+        return (1);
     }
     recursion(n, 0, 0, 0);
-    return 0;
+    return (0);
 }
