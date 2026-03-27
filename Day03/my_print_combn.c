@@ -61,7 +61,7 @@ static void recursion(int n, int pos, int start, int value)
 int my_print_combn(int n)
 {
     if (n <= 0 || n >= 10) {
-        return (1);
+        return 1;
     }
     recursion(n, 0, 0, 0);
     return 0;
