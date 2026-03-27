@@ -7,7 +7,7 @@
 */
 
 #include "../my_put_nbr.h"
-#include "../lib/my_putchar.h"
+#include "../my_putchar.h"
 
 int main(void)
 {

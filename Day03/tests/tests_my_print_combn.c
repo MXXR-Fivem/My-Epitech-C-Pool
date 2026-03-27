@@ -7,7 +7,7 @@
 */
 
 #include "../my_print_combn.h"
-#include "../lib/my_putchar.h"
+#include "../my_putchar.h"
 
 int main(void)
 {
