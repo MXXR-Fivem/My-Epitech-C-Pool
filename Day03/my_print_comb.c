@@ -33,5 +33,5 @@ int my_print_comb(void)
         }
         c1++;
     }
-    return (0);
+    return 0;
 }

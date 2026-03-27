@@ -11,5 +11,5 @@
 int main(void)
 {
     my_print_revalpha();
-    return (0);
+    return 0;
 }

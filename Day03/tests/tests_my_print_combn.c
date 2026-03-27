@@ -18,5 +18,5 @@ int main(void)
     my_putchar('\n');
     my_putchar('\n');
     my_print_combn(5);
-    return (0);
+    return 0;
 }

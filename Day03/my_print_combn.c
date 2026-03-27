@@ -64,5 +64,5 @@ int my_print_combn(int n)
         return (1);
     }
     recursion(n, 0, 0, 0);
-    return (0);
+    return 0;
 }

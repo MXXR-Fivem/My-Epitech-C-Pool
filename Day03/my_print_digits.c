@@ -17,5 +17,5 @@ int my_print_digits(void)
         my_putchar(c);
         c++;
     }
-    return (0);
+    return 0;
 }
