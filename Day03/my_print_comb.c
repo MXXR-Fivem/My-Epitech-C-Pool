@@ -6,7 +6,7 @@
 ** Print all unique 3-digit combinations
 */
 
-#include "lib/my_putchar.h"
+#include "my_putchar.h"
 
 int my_print_comb(void)
 {

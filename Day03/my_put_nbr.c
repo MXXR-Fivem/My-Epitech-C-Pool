@@ -6,7 +6,7 @@
 ** Print an integer
 */
 
-#include "lib/my_putchar.h"
+#include "my_putchar.h"
 
 static int show_positive_number(long nb)
 {

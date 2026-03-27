@@ -6,7 +6,7 @@
 ** Print all combinations of two two-digit numbers
 */
 
-#include "lib/my_putchar.h"
+#include "my_putchar.h"
 
 int my_print_comb2(void)
 {

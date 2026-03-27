@@ -6,7 +6,7 @@
 ** Print all combinations of n digits
 */
 
-#include "lib/my_putchar.h"
+#include "my_putchar.h"
 
 static void my_putnbr_fixed(int nb, int digits)
 {

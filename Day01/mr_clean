@@ -1,1 +1,10 @@
+#!/bin/bash
+##
+## EPITECH PROJECT, 2026
+## C Pool Day01
+## Author: Theo Busiris <theo.busiris@epitech.eu>
+## File description:
+## Remove editor temporary files
+##
+
 find . -name "*~" -delete -o -name "#*#" -delete

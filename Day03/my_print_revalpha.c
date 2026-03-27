@@ -6,7 +6,7 @@
 ** Print lowercase alphabet in reverse
 */
 
-#include "lib/my_putchar.h"
+#include "my_putchar.h"
 
 int my_print_revalpha(void)
 {

@@ -6,7 +6,7 @@
 ** Display N if negative, P otherwise
 */
 
-#include "lib/my_putchar.h"
+#include "my_putchar.h"
 
 int my_isneg(int n)
 {
